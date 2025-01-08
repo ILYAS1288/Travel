@@ -5,16 +5,16 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 const Header = () => {
   return (
     <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto flex flex-wrap justify-between items-center py-4 px-6">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between py-4 px-6">
         {/* Logo Section */}
-        <h1 className="text-3xl font-bold tracking-wide">
+        <h1 className="text-3xl font-bold tracking-wide text-left">
           Ballon <br />
           <span className="text-yellow-300">TRAVELS</span>
         </h1>
 
         {/* Navigation Links */}
-        <nav className="w-full lg:w-auto mt-4 lg:mt-0">
-          <ul className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-end space-x-6 text-lg font-medium">
+        <nav className="flex-1 flex justify-center mt-4 lg:mt-0">
+          <ul className="flex space-x-6 text-lg font-medium">
             <li>
               <NavLink
                 to="/"
@@ -36,7 +36,19 @@ const Header = () => {
                   }`
                 }
               >
-                About Flights
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/flights"
+                className={({ isActive }) =>
+                  `hover:text-yellow-300 transition-colors duration-300 ${
+                    isActive ? 'text-yellow-300 underline' : ''
+                  }`
+                }
+              >
+                Flights
               </NavLink>
             </li>
             <li>
@@ -75,35 +87,37 @@ const Header = () => {
                 Contact
               </NavLink>
             </li>
-            <li className="flex items-center space-x-4 mt-4 lg:mt-0">
-              <span>Follow us:</span>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-yellow-300 transition-colors duration-300"
-              >
-                <FaFacebook size={20} />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-yellow-300 transition-colors duration-300"
-              >
-                <FaInstagram size={20} />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-yellow-300 transition-colors duration-300"
-              >
-                <FaTwitter size={20} />
-              </a>
-            </li>
           </ul>
         </nav>
+
+        {/* Social Media Links */}
+        <div className="flex items-center space-x-4 mt-4 lg:mt-0">
+          <span>Follow us:</span>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-300 transition-colors duration-300"
+          >
+            <FaFacebook size={20} />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-300 transition-colors duration-300"
+          >
+            <FaInstagram size={20} />
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-300 transition-colors duration-300"
+          >
+            <FaTwitter size={20} />
+          </a>
+        </div>
       </div>
     </header>
   );
