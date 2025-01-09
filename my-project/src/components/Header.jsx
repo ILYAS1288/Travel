@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-md sticky top-0 z-50">
+    <header className=" text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between py-4 px-6">
         {/* Logo Section */}
         <h1 className="text-3xl font-bold tracking-wide text-left">

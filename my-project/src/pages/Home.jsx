@@ -1,11 +1,28 @@
-import React from 'react'
+
+
+
+
+import React from 'react';
+import Main1 from '../components/Main1';
+import Header from "../components/Header";
+import Main2 from '../components/Main2';
 
 const Home = () => {
   return (
-    <div>
-      <h1> wel  home    </h1>
-    </div>
-  )
-}
+   <>
+ 
+    
+      
+      {/* <Header/> */}
+      <Main1 />
+      <Main2 />
 
-export default Home
+      </>
+ 
+    
+  );
+};
+
+export default Home;
+
+
