@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Main2 = () => {
   return (
     <div className="grid grid-cols-12 bg-green-950 p-4 min-h-screen items-center">
@@ -7,7 +8,7 @@ const Main2 = () => {
       <div className="col-span-12 sm:col-span-6 relative flex flex-col ">
         {/* Image */}
         <img
-          src="../../public/photos/2nd.jpg"
+          src="../../public/photos/3rd.jpg"
           alt="Destination Image"
           className="w-full max-w-xs h-64 object-cover rounded-lg"
         />
@@ -35,7 +36,7 @@ const Main2 = () => {
 
     {/* Bottom Image */}
     <img
-      src="../../public/photos/2nd.jpg"
+      src="../../public/photos/4th.jpg"
       alt="Destination Image"
       className="w-full h-full object-cover rounded-lg absolute top-6 right-6 z-0 transform -rotate-6"
     />
