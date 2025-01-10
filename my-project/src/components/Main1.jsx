@@ -38,7 +38,7 @@ const Main1 = () => {
     </div>
 {/* 2nd div with the image amd h1  */}
 
-<Main2/>
+
     </div>
   );
 };
