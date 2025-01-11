@@ -10,7 +10,7 @@ const Main2 = () => {
         <img
           src="../../public/photos/3rd.jpg"
           alt="Destination Image"
-          className="w-full max-w-xs h-64 object-cover rounded-lg"
+          className="w-full max-w-xs h-72 object-cover rounded-lg"
         />
 
         {/* Text positioned at the end of the image */}
@@ -26,22 +26,23 @@ const Main2 = () => {
 
       {/* Right Section - Two Overlapping Images */}
       <div className="col-span-12 sm:col-span-6 flex justify-center relative">
-  <div className="relative w-44 h-44 sm:w-60 sm:h-60">
+  <div className="relative w-52 h-52 sm:w-72 sm:h-72">
     {/* Top Image */}
     <img
       src="../../public/photos/2nd.jpg"
-      alt="Destination Image"
-      className="w-full h-full object-cover rounded-lg z-10 transform rotate-6"
+      alt="Top Image"
+      className="w-full h-full object-cover rounded-lg z-10 transform rotate-12 shadow-lg"
     />
 
     {/* Bottom Image */}
     <img
       src="../../public/photos/4th.jpg"
-      alt="Destination Image"
-      className="w-full h-full object-cover rounded-lg absolute top-6 right-6 z-0 transform -rotate-6"
+      alt="Bottom Image"
+      className="w-full h-full object-cover rounded-lg absolute top-6 left-16 z-0 transform -rotate-45 shadow-lg"
     />
   </div>
 </div>
+
 
     </div>
   );

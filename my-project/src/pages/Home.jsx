@@ -6,6 +6,8 @@ import React from 'react';
 import Main1 from '../components/Main1';
 import Main2 from '../components/Main2';
 import Main3 from '../components/Main3';
+import Main4 from '../components/Main4';
+import Main5 from '../components/Main5';
 
 
 
@@ -20,6 +22,8 @@ const Home = () => {
     
 <Main2/>
 <Main3/>
+<Main4/>
+<Main5/>
       </>
  
     
