@@ -4,7 +4,7 @@ import { faLessThan, faGreaterThan } from '@fortawesome/free-solid-svg-icons';
 
 const Main6 = () => {
   return (
-    <main className="bg-gray-900 text-white min-h-screen relative">
+    <main className="bg-green-950 text-white min-h-screen relative">
       {/* Carousel Section */}
       <div
         id="carouselExampleControls"

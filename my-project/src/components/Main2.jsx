@@ -26,7 +26,7 @@ const Main2 = () => {
 
       {/* Right Section - Two Overlapping Images */}
       <div className="col-span-12 sm:col-span-6 flex justify-center relative">
-  <div className="relative w-52 h-52 sm:w-72 sm:h-72">
+  <div className="relative w-52 h-52 sm:w-52 sm:h-64">
     {/* Top Image */}
     <img
       src="../../public/photos/2nd.jpg"
