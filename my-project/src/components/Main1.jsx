@@ -18,6 +18,7 @@ const Main1 = () => {
       </div>
 
       {/* Main content section */}
+      
       <div className="flex-1 flex flex-col justify-center items-center">
         <div className="mb-12 md:mb-20 px-4">
           <h1 className="text-3xl md:text-6xl text-yellow-400 font-bold mb-4">
