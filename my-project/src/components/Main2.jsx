@@ -13,7 +13,7 @@ const Main2 = () => {
           className="w-full max-w-xs h-72 object-cover rounded-lg"
         />
 
-        {/* Text positioned at the end of the image */}
+        {/* Text positionede end of the image */}
         <div className="absolute text-center bottom-4 left-44 transform -translate-x-1">
           <i>
             <h1 className="text-yellow-500 text-4xl sm:text-6xl font-bold">

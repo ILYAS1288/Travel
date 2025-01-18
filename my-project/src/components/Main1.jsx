@@ -12,7 +12,7 @@ const Main1 = () => {
         backgroundColor: 'black',
       }}
     >
-      {/* Header positioned within the image */}
+      {/* Header positioned the image */}
       <div className="absolute top-0 left-0 w-full">
         <Header />
       </div>
